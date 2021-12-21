@@ -13,3 +13,17 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+
+# System files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Trash-*

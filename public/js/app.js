@@ -2995,13 +2995,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_Laravel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Laravel */ "./resources/js/components/Laravel.jsx");
+/* harmony import */ var _components_Inertia__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Inertia */ "./resources/js/components/Inertia.jsx");
+/* harmony import */ var _components_Tailwind__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Tailwind */ "./resources/js/components/Tailwind.jsx");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
 
 
 
 function Home() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    children: "Hello!"
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+    className: "flex flex-row justify-around items-center w-1/3 h-screen mx-auto",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Laravel__WEBPACK_IMPORTED_MODULE_1__["default"], {}), "+", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Inertia__WEBPACK_IMPORTED_MODULE_2__["default"], {}), "+", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Tailwind__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
   });
 }
 
@@ -3045,6 +3053,119 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   }
 });
 _inertiajs_progress__WEBPACK_IMPORTED_MODULE_3__.InertiaProgress.init();
+
+/***/ }),
+
+/***/ "./resources/js/components/Inertia.jsx":
+/*!*********************************************!*\
+  !*** ./resources/js/components/Inertia.jsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function Inertia() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("svg", {
+    className: "block fill-current text-indigo-500",
+    style: {
+      height: 25
+    },
+    viewBox: "0 0 275.3 50.5",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+      d: "M231.2 16.1h-17.8l17.2 17.2-17.2 17.2h17.8l17.2-17.2z"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+      d: "M258.1 16.1h-17.8l17.2 17.2-17.2 17.2h17.8l17.2-17.2zM6 15.3h10.3l-6 34.2H0l6-34.2zm.6-9.1C7.2 2.9 10.3 0 13.7 0s5.7 2.8 5.2 6.2c-.5 3.4-3.7 6.2-7.2 6.2s-5.6-3-5.1-6.2zm47.7 22.3l-3.7 21H40.4L43.8 30c.8-4.4-1.6-6.2-4.9-6.2-3.4 0-6.5 2-7.5 6.6L28 49.5H17.8l6-34.2h10.3l-.5 3.2c2.3-2.6 6.2-4.2 10.1-4.2 6.9.1 12.2 5.1 10.6 14.2zm40.2 3.9c-.1.8-.5 2.7-1.1 4.1H68.9c.6 3.8 3.8 4.8 7 4.8 2.9 0 5.2-.8 7.2-2.7l7.2 5.9c-4 4-8.7 6-15 6-11.8 0-18-8.5-16.3-18.7a20.7 20.7 0 0120.5-17.4c9.8 0 16.9 7.6 15 18zm-9.7-3.7c-.3-3.8-3-5.3-6.2-5.3a8.9 8.9 0 00-8.3 5.3h14.5zm39.1-14.1l-2 11.6c-4-.6-10.5.8-11.7 7.8l.1-.4-2.8 15.9H97.3l6-34.2h10.3l-1.1 6.2c2.1-4.7 6.6-6.9 11.4-6.9zm13.9 22.7c-.5 3.1 2 3.3 6.6 2.9l-1.6 9.3c-12.3 1.4-16.9-2.7-15.2-12.2l2.1-12.1h-5.5l1.8-9.9h5.4l1.2-6.5 10.8-3.1-1.7 9.6h7.1l-1.8 9.9h-7l-2.2 12.1zm17.5-22h10.3l-6 34.2h-10.3l6-34.2zm.6-9.1c.5-3.3 3.7-6.2 7.1-6.2s5.7 2.8 5.2 6.2c-.5 3.4-3.7 6.2-7.2 6.2s-5.7-3-5.1-6.2zm52.2 9.1l-6 34.2h-10.3l.4-2.3a15.5 15.5 0 01-10.3 3.3c-11.1 0-15.3-9.6-13.5-18.9 1.6-8.8 8.6-17.2 19.2-17.2 4.5 0 7.7 1.8 9.6 4.6l.6-3.6h10.3zm-13.2 17.2c.9-5.2-1.9-8.4-6.6-8.4a9.5 9.5 0 00-9.5 8.3c-.9 5.1 1.8 8.3 6.6 8.3 4.6.1 8.6-3.1 9.5-8.2z"
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Inertia);
+
+/***/ }),
+
+/***/ "./resources/js/components/Laravel.jsx":
+/*!*********************************************!*\
+  !*** ./resources/js/components/Laravel.jsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+function Laravel() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    x: "0",
+    y: "0",
+    enableBackground: "new 0 0 444 453",
+    version: "1.1",
+    viewBox: "0 0 444 453",
+    xmlSpace: "preserve",
+    className: "h-20 w-auto text-red-500",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+      d: "M357.38 149.42c-.03-.13-.11-.24-.15-.37-.09-.23-.16-.47-.28-.68-.08-.14-.2-.26-.3-.39-.13-.17-.24-.36-.39-.51-.13-.13-.29-.22-.43-.33-.16-.13-.3-.27-.48-.37l-52.45-30.2a4.354 4.354 0 00-4.36 0l-52.45 30.2c-.18.1-.32.25-.48.37-.14.11-.3.2-.43.33-.15.15-.26.34-.39.51-.1.13-.22.25-.3.39-.12.21-.2.45-.28.68-.05.12-.12.24-.15.37-.1.37-.15.75-.15 1.14v57.36l-43.71 25.17V120.87c0-.39-.05-.77-.15-1.14-.03-.13-.11-.24-.15-.37-.09-.23-.16-.47-.28-.68-.08-.14-.2-.26-.3-.39-.13-.17-.24-.36-.39-.51-.13-.13-.29-.22-.43-.33-.16-.13-.3-.27-.48-.37l-52.45-30.2a4.354 4.354 0 00-4.36 0l-52.45 30.2c-.18.1-.32.25-.48.37-.14.11-.3.2-.43.33-.15.15-.26.34-.39.51-.1.13-.22.25-.3.39-.12.21-.2.45-.28.68-.05.12-.12.24-.15.37-.1.37-.15.75-.15 1.14v179.66c0 1.56.84 3.01 2.19 3.79l104.91 60.4c.23.13.48.21.72.3.11.04.22.11.34.14a4.256 4.256 0 002.24 0c.1-.03.19-.09.29-.12.26-.09.52-.18.76-.31l104.91-60.4a4.356 4.356 0 002.19-3.79v-57.36l50.26-28.94a4.356 4.356 0 002.19-3.79v-59.89c-.05-.39-.11-.77-.2-1.14zM195.78 295.5l-43.63-24.69 45.82-26.38 50.27-28.94 43.67 25.14-32.04 18.29-64.09 36.58zm100.55-112.21v49.8l-18.36-10.57-25.36-14.6v-49.8l18.36 10.57 25.36 14.6zm4.37-57.89l43.69 25.16-43.69 25.16-43.69-25.16 43.69-25.16zM166.07 252.72l-18.36 10.57V153.6l25.36-14.6 18.36-10.57v109.68l-25.36 14.61zm-22.73-157l43.69 25.16-43.69 25.16-43.69-25.16 43.69-25.16zm-48.09 32.71L113.61 139l25.36 14.6v117.26c0 .17.05.33.07.49.03.21.03.43.09.64v.01c.05.17.14.33.21.49.08.18.13.38.23.55 0 0 0 .01.01.01.09.15.22.28.33.42.12.16.22.32.36.46l.01.01c.12.12.28.21.42.32.16.12.3.26.47.36.01 0 .01 0 .02.01.01 0 .01.01.02.01l50.24 28.43v50.29L95.25 298V128.43zM296.33 298l-96.17 55.37v-50.3l71.22-40.66 24.95-14.24V298zm52.45-90.08l-43.71 25.17v-49.8l25.36-14.6 18.36-10.57v49.8z",
+      className: "st0",
+      fill: "currentColor"
+    })
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Laravel);
+
+/***/ }),
+
+/***/ "./resources/js/components/Tailwind.jsx":
+/*!**********************************************!*\
+  !*** ./resources/js/components/Tailwind.jsx ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function Tailwind() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("svg", {
+    className: "text-gray-900 dark:text-white w-auto h-5",
+    viewBox: "0 0 248 31",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+      fill: "#38bdf8",
+      fillRule: "evenodd",
+      d: "M25.517 0C18.712 0 14.46 3.382 12.758 10.146c2.552-3.382 5.529-4.65 8.931-3.805 1.941.482 3.329 1.882 4.864 3.432 2.502 2.524 5.398 5.445 11.722 5.445 6.804 0 11.057-3.382 12.758-10.145-2.551 3.382-5.528 4.65-8.93 3.804-1.942-.482-3.33-1.882-4.865-3.431C34.736 2.92 31.841 0 25.517 0zM12.758 15.218C5.954 15.218 1.701 18.6 0 25.364c2.552-3.382 5.529-4.65 8.93-3.805 1.942.482 3.33 1.882 4.865 3.432 2.502 2.524 5.397 5.445 11.722 5.445 6.804 0 11.057-3.381 12.758-10.145-2.552 3.382-5.529 4.65-8.931 3.805-1.941-.483-3.329-1.883-4.864-3.432-2.502-2.524-5.398-5.446-11.722-5.446z",
+      clipRule: "evenodd"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+      fill: "currentColor",
+      fillRule: "evenodd",
+      d: "M76.546 12.825h-4.453v8.567c0 2.285 1.508 2.249 4.453 2.106v3.463c-5.962.714-8.332-.928-8.332-5.569v-8.567H64.91V9.112h3.304V4.318l3.879-1.143v5.937h4.453v3.713zM93.52 9.112h3.878v17.849H93.52v-2.57c-1.365 1.891-3.484 3.034-6.285 3.034-4.884 0-8.942-4.105-8.942-9.389 0-5.318 4.058-9.388 8.942-9.388 2.801 0 4.92 1.142 6.285 2.999V9.112zm-5.674 14.636c3.232 0 5.674-2.392 5.674-5.712s-2.442-5.711-5.674-5.711-5.674 2.392-5.674 5.711c0 3.32 2.442 5.712 5.674 5.712zm16.016-17.313c-1.364 0-2.477-1.142-2.477-2.463a2.475 2.475 0 012.477-2.463 2.475 2.475 0 012.478 2.463c0 1.32-1.113 2.463-2.478 2.463zm-1.939 20.526V9.112h3.879v17.849h-3.879zm8.368 0V.9h3.878v26.06h-3.878zm29.053-17.849h4.094L137.8 26.961h-3.807l-3.735-12.03-3.771 12.03h-3.806l-5.639-17.849h4.094l3.484 12.315 3.771-12.315h3.699l3.734 12.315 3.52-12.315zm8.906-2.677c-1.365 0-2.478-1.142-2.478-2.463a2.475 2.475 0 012.478-2.463 2.475 2.475 0 012.478 2.463c0 1.32-1.113 2.463-2.478 2.463zm-1.939 20.526V9.112h3.878v17.849h-3.878zm17.812-18.313c4.022 0 6.895 2.713 6.895 7.354V26.96h-3.878V16.394c0-2.713-1.58-4.14-4.022-4.14-2.55 0-4.561 1.499-4.561 5.14v9.567h-3.879V9.112h3.879v2.285c1.185-1.856 3.124-2.749 5.566-2.749zm25.282-6.675h3.879V26.96h-3.879v-2.57c-1.364 1.892-3.483 3.034-6.284 3.034-4.884 0-8.942-4.105-8.942-9.389 0-5.318 4.058-9.388 8.942-9.388 2.801 0 4.92 1.142 6.284 2.999V1.973zm-5.674 21.775c3.232 0 5.674-2.392 5.674-5.712s-2.442-5.711-5.674-5.711-5.674 2.392-5.674 5.711c0 3.32 2.442 5.712 5.674 5.712zm22.553 3.677c-5.423 0-9.481-4.105-9.481-9.389 0-5.318 4.058-9.388 9.481-9.388 3.519 0 6.572 1.82 8.008 4.605l-3.34 1.928c-.79-1.678-2.549-2.749-4.704-2.749-3.16 0-5.566 2.392-5.566 5.604 0 3.213 2.406 5.605 5.566 5.605 2.155 0 3.914-1.107 4.776-2.749l3.34 1.892c-1.508 2.82-4.561 4.64-8.08 4.64zm14.472-13.387c0 3.249 9.661 1.285 9.661 7.89 0 3.57-3.125 5.497-7.003 5.497-3.591 0-6.177-1.607-7.326-4.177l3.34-1.927c.574 1.606 2.011 2.57 3.986 2.57 1.724 0 3.052-.571 3.052-2 0-3.176-9.66-1.391-9.66-7.781 0-3.356 2.909-5.462 6.572-5.462 2.945 0 5.387 1.357 6.644 3.713l-3.268 1.82c-.647-1.392-1.904-2.035-3.376-2.035-1.401 0-2.622.607-2.622 1.892zm16.556 0c0 3.249 9.66 1.285 9.66 7.89 0 3.57-3.124 5.497-7.003 5.497-3.591 0-6.176-1.607-7.326-4.177l3.34-1.927c.575 1.606 2.011 2.57 3.986 2.57 1.724 0 3.053-.571 3.053-2 0-3.176-9.66-1.391-9.66-7.781 0-3.356 2.908-5.462 6.572-5.462 2.944 0 5.386 1.357 6.643 3.713l-3.268 1.82c-.646-1.392-1.903-2.035-3.375-2.035-1.401 0-2.622.607-2.622 1.892z",
+      clipRule: "evenodd"
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Tailwind);
 
 /***/ }),
 
